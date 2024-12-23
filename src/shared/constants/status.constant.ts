@@ -1,0 +1,10 @@
+export const enum StatusCode  {
+    SERVER_ERROR = 500,
+    UNAUTHORIZED_ERROR = 401,
+    BADREQUEST_ERROR = 400,
+    NOTFOUND_ERROR = 404,
+    NOT_MODIFIED = 304,
+    OK = 200,
+    CREATED = 201,
+    NO_CONTENT = 204
+}
